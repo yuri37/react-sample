@@ -291,7 +291,7 @@ const App = () => {
 const [count, setCount] = useState(0)
   return (
     <>
-      <p>現在の数字は{count}です</p>
+      <p>現在の数字は{count}です!</p>
       {/* setCount()は、countを更新するための関数。countを引数で受け取ることも出来る */}
       {/* <button onClick={() => setCount(count + 1)}>+ 1</button> */}
       <button onClick={() => setCount(prevState => prevState + 1)}>+ 1</button>
